@@ -3,10 +3,13 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"name": {
-			"defaultValue": "managedEnvironment-ContainersWorld-demo",
+			"defaultValue": "",
 			"type": "String"
 		},
 		"location": {
+			"type": "string"
+		},
+		"sharedKey": {
 			"type": "string"
 		}
 	},
@@ -23,8 +26,8 @@
 				"appLogsConfiguration": {
 					"destination": "log-analytics",
 					"logAnalyticsConfiguration": {
-						"customerId": "bf6ef8ea-e3d6-4bc4-9d0f-21d3d50f61df",
-						"sharedKey": null
+						"customerId": "cf6ef8ea-e3d6-4bc4-9d0f-21d3d50f61df",
+						"sharedKey": "[parameters('sharedKey')]"
 					}
 				},
 				"zoneRedundant": false,
