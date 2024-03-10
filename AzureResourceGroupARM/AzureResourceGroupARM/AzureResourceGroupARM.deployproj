@@ -27,9 +27,13 @@
     <None Include="AppforContainers\AppforContainerEnvirnoment\template.json" />
     <None Include="AppforContainers\frontend\parameters.json" />
     <None Include="AppforContainers\frontend\template.json" />
+    <None Include="AppforContainers\ReadmeFirst.txt" />
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppforContainers\LogAnalyticWorkSpace\" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
