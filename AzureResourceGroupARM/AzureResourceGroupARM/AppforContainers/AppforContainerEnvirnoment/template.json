@@ -23,8 +23,8 @@
 				"appLogsConfiguration": {
 					"destination": "log-analytics",
 					"logAnalyticsConfiguration": {
-						"customerId": "bf9ef8ea-e3d6-4bc4-9d0f-40d3d50f61df",
-						"dynamicJsonColumns": false
+						"customerId": "bf6ef8ea-e3d6-4bc4-9d0f-21d3d50f61df",
+						"sharedKey": null
 					}
 				},
 				"zoneRedundant": false,
