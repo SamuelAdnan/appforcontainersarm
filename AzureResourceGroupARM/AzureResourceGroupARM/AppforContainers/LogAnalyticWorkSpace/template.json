@@ -30,9 +30,9 @@
     }
   ],
   "outputs": {
-    "logworkspacename": {
+    "stringOutput": {
       "type": "string",
-      "value": "[parameters('name')]"
+      "value": "[deployment().name]"
     }
   }
 }
