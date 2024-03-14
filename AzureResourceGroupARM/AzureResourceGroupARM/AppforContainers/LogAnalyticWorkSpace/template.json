@@ -32,7 +32,7 @@
   "outputs": {
     "stringOutput": {
       "type": "string",
-      "value": "[deployment().name]"
+      "value": "[parameters('name')]"
     }
   }
 }
