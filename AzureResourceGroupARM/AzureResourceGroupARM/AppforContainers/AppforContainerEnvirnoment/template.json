@@ -11,6 +11,9 @@
 		},
 		"sharedKey": {
 			"type": "string"
+		},
+		"logworkspaceid": {
+			"type": "string"
 		}
 	},
 	"variables": {},
@@ -26,7 +29,7 @@
 				"appLogsConfiguration": {
 					"destination": "log-analytics",
 					"logAnalyticsConfiguration": {
-						"customerId": "cf6ef8ea-e3d6-4bc4-9d0f-21d3d50f61df",
+						"customerId": "[parameters('logworkspaceid')]",
 						"sharedKey": "[parameters('sharedKey')]"
 					}
 				},
