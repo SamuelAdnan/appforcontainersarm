@@ -47,10 +47,16 @@
                     "ingress": "[parameters('ingress')]"
                 },
                 "template": {
-                    "containers": "[parameters('containers')]",
-                    "scale": {
-                        "minReplicas": 0
-                    }
+                  "containers": "[parameters('containers')]",
+                  "resources": {
+                    "cpu": ".5",
+                    "memory":"1Gi"
+
+                  },
+                  "scale": {
+                    "minReplicas": 0,
+                    "maxReplicas": 5
+                  }
                 },
                 "workloadProfileName": "Consumption"
             }

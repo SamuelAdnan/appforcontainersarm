@@ -1,50 +1,57 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "subscriptionId": {
-            "value": "a45110d4-a8e5-4d3d-9324-9e302d45e2e4"
-        },
-        "name": {
-            "value": "fronendcontainer"
-        },
-        "location": {
-            "value": "westeurope"
-        },
-        "environmentId": {
-            "value": "/subscriptions/a45110d4-a8e5-4d3d-9324-9e302d45e2e4/resourceGroups/ContainersWorld/providers/Microsoft.App/managedEnvironments/managedEnvironment-ContainersWorld-demo"
-        },
-        "containers": {
-            "value": [
-                {
-                    "name": "fronendcontainer",
-                    "image": "docker.io/samueladnan/container.frontend:version1",
-                    "command": [],
-                    "resources": {
-                        "cpu": 0.5,
-                        "memory": "1Gi"
-                    }
-                }
-            ]
-        },
-        "registries": {
-            "value": []
-        },
-        "secrets": {
-            "value": {
-                "arrayValue": []
-            }
-        },
-        "ingress": {
-            "value": {
-                "external": false,
-                "transport": "Auto",
-                "allowInsecure": false,
-                "targetPort": 80,
-                "stickySessions": {
-                    "affinity": "none"
-                }
-            }
-        }
-    }
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"subscriptionId": {
+			"value": "a45110d4-a8e5-4d3d-9324-9e302d45e2e4"
+		},
+		"name": {
+			"value": "fronendcontainer"
+		},
+		"location": {
+			"value": "westeurope"
+		},
+		"environmentId": {
+			"value": "/subscriptions/a45110d4-a8e5-4d3d-9324-9e302d45e2e4/resourceGroups/ContainersWorld/providers/Microsoft.App/managedEnvironments/managedEnvironment-ContainersWorld-demo"
+		},
+		"containers": {
+			"value": [
+				{
+					"name": "fronendcontainer",
+					"image": "docker.io/samueladnan/container.frontend:version1",
+					"command": [],
+					"resources": {
+						"cpu": 0.5,
+						"memory": "1Gi"
+					}
+				}
+			]
+		},
+		"registries": {
+			"value": []
+		},
+		"secrets": {
+			"value": {
+				"arrayValue": []
+			}
+		},
+		"ingress": {
+			"value": {
+				"external": true,
+				"transport": "Auto",
+				"allowInsecure": false,
+				"targetPort": 80,
+				"": [
+					{
+
+						"weight": 100,
+						"latestRevision": true
+					}
+				],
+				"stickySessions": {
+					"affinity": "none"
+				}
+			}
+		}
+	}
 }
