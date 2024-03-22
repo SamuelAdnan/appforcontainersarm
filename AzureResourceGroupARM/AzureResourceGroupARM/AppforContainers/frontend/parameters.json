@@ -41,16 +41,10 @@
 				"transport": "Auto",
 				"allowInsecure": false,
 				"targetPort": 80,
-				"": [
-					{
-
-						"weight": 100,
-						"latestRevision": true
-					}
-				],
 				"stickySessions": {
 					"affinity": "none"
-				}
+				},
+				"additionalPortMappings": []
 			}
 		}
 	}
