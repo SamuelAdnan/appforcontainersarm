@@ -18,7 +18,7 @@
 			"value": [
 				{
 					"name": "fronendcontainer",
-					"image": "samueladnan/container.frontend:version1",
+					"image": "samueladnan/container.frontend:version2",
 					"command": [],
 					"resources": {
 						"cpu": "0.75",
