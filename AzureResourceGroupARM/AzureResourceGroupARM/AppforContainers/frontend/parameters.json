@@ -18,7 +18,7 @@
 			"value": [
 				{
 					"name": "fronendcontainer",
-					"image": "docker.io/samueladnan/container.frontend:version1",
+					"image": "samueladnan/container.frontend:version1",
 					"command": [],
 					"resources": {
 						"cpu": "0.75",
