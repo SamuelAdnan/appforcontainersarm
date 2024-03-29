@@ -25,6 +25,8 @@
   <ItemGroup>
     <None Include="AppforContainers\AppforContainerEnvirnoment\parameters.json" />
     <None Include="AppforContainers\AppforContainerEnvirnoment\template.json" />
+    <None Include="AppforContainers\backend\parameters.json" />
+    <None Include="AppforContainers\backend\template.json" />
     <None Include="AppforContainers\frontend\parameters.json" />
     <None Include="AppforContainers\frontend\template.json" />
     <None Include="AppforContainers\LogAnalyticWorkSpace\parameters.json" />
