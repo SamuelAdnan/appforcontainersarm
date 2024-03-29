@@ -18,7 +18,7 @@
 			"value": [
 				{
 					"name": "fronendcontainer",
-					"image": "docker.io/samueladnan/container.frontend:version1",
+					"image": "samueladnan/container.frontend:version2",
 					"command": [],
 					"resources": {
 						"cpu": 0.5,
@@ -47,16 +47,10 @@
 				"transport": "Auto",
 				"allowInsecure": false,
 				"targetPort": 80,
-				"": [
-					{
-
-						"weight": 100,
-						"latestRevision": true
-					}
-				],
 				"stickySessions": {
 					"affinity": "none"
-				}
+				},
+				"additionalPortMappings": []
 			}
 		}
 	}
