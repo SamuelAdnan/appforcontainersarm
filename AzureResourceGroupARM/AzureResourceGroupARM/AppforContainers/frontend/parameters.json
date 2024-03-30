@@ -12,7 +12,7 @@
 			"value": "westeurope"
 		},
 		"environmentId": {
-			"value": "/subscriptions/a45110d4-a8e5-4d3d-9324-9e302d45e2e4/resourceGroups/ContainersWorld/providers/Microsoft.App/managedEnvironments/managedEnvironment-ContainersWorld-demo"
+			"value": "/subscriptions/a45110d4-a8e5-4d3d-9324-9e302d45e2e4/resourceGroups/ContainersWorld/providers/Microsoft.App/managedEnvironments/MyarmAppforContainer"
 		},
 		"containers": {
 			"value": [
