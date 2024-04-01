@@ -54,10 +54,12 @@
 			}
 		},
 		"dapr": {
-			"enabled": true,
-			"appId": "nodeapp",
-			"appProcotol": "http",
-			"appPort": 3000
+			"value": {
+				"enabled": true,
+				"appId": "nodeapp",
+				"appProcotol": "http",
+				"appPort": 3000
+			}
 		}
 	}
 }
