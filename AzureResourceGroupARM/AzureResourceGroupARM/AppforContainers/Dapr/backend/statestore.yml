@@ -10,4 +10,4 @@ metadata:
   - name: azureClientId
     value: 8d86278d-627e-463f-a83e-c381d434eb3d
 scopes:
-  - backendapp
+  - container.dapr.backendwebapi
