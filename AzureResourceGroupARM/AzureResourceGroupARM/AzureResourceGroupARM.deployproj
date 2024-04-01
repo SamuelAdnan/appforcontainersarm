@@ -27,11 +27,20 @@
     <None Include="AppforContainers\AppforContainerEnvirnoment\template.json" />
     <None Include="AppforContainers\backend\parameters.json" />
     <None Include="AppforContainers\backend\template.json" />
+    <None Include="AppforContainers\Dapr\backend\parameters.json" />
+    <None Include="AppforContainers\Dapr\backend\statestore.yml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="AppforContainers\Dapr\backend\template.json" />
+    <None Include="AppforContainers\Dapr\frontend\parameters.json" />
+    <None Include="AppforContainers\Dapr\frontend\template.json" />
     <None Include="AppforContainers\frontend\parameters.json" />
     <None Include="AppforContainers\frontend\template.json" />
     <None Include="AppforContainers\LogAnalyticWorkSpace\parameters.json" />
     <None Include="AppforContainers\LogAnalyticWorkSpace\template.json" />
     <None Include="AppforContainers\ReadmeFirst.txt" />
+    <None Include="AppforContainers\UserManagedIdentity\parameters.json" />
+    <None Include="AppforContainers\UserManagedIdentity\template.json" />
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
