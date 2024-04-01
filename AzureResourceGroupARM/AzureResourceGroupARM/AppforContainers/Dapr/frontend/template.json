@@ -29,8 +29,8 @@
     "ingress": {
       "type": "object"
     },
-    "dapr": {
-      "type": "object"
+    "dapridname": {
+      "type": "string"
     }
   },
   "resources": [
@@ -48,7 +48,13 @@
           "registries": "[parameters('registries')]",
           "activeRevisionsMode": "Single",
           "ingress": "[parameters('ingress')]",
-          "dapr": "[parameters('dapr')]"
+          "dapr": {
+            "enabled": true,
+            "appId": "[parameters('dapridname')]",
+            "appProcotol": "http",
+            "enableApiLogging": true,
+            "appPort": 3000
+          }
         },
         "template": {
           "containers": "[parameters('containers')]",

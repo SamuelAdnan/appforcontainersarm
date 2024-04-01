@@ -55,15 +55,10 @@
           "affinity": "none"
         },
         "additionalPortMappings": []
-      },
-      "dapr": {
-        "value": {
-          "enabled": true,
-          "appId": "nodeapp",
-          "appProcotol": "http",
-          "appPort": 3000
-        }
       }
+    },
+    "dapridname": {
+      "value": "dapridname"
     }
   }
 }
