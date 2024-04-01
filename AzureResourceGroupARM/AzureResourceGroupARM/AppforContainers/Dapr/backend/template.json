@@ -28,6 +28,9 @@
     },
     "ingress": {
       "type": "object"
+    },
+    "dapr": {
+      "type": "object"
     }
   },
   "resources": [
