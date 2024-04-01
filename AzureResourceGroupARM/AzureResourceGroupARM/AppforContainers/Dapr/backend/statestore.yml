@@ -1,13 +1,11 @@
-﻿# statestore.yaml for Azure Blob storage component
-# we will use user manged identity
-componentType: state.azure.blobstorage
+﻿componentType: state.azure.blobstorage
 version: v1
 metadata:
   - name: accountName
-    value: containerpalygroundsto
+    value: "containerpalygroundsto"
   - name: containerName
     value: mypictuers
   - name: azureClientId
-    value: 8d86278d-627e-463f-a83e-c381d434eb3d
+    value: "8d86278d-627e-463f-a83e-c381d434eb3d"
 scopes:
   - container.dapr.backendwebapi
