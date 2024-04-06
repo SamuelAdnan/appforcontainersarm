@@ -45,7 +45,7 @@
         "environmentId": "[parameters('environmentId')]",
         "configuration": {
           "secrets": "[parameters('secrets').arrayValue]",
-          "registries": "[parameters('registries')]",
+          "registries": "[parameters('registries')]", 
           "activeRevisionsMode": "Single",
           "ingress": "[parameters('ingress')]",
           "dapr": {

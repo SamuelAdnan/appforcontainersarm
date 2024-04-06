@@ -1,0 +1,28 @@
+﻿
+resource daprComponent 'Microsoft.App/managedEnvironments/daprComponents@2022-06-01-preview' = {
+    name: 'statesotre'
+    properties: {
+        componentType: 'state.azure.blobstorage'
+        version: 'v1'
+        metadata: [
+            {
+                name: containerName
+                value: imagefiles
+            },
+            {
+                name: accountName
+                value: containerpalygroundsto
+            },
+            {
+                name: azureClientId
+                value: 8d86278d-627e-463f-a83e-c381d434eb3d
+            }
+        ]
+        secrets: []
+        scopes: [
+            containerbackendapiid
+        ]
+    }
+}{
+
+}
