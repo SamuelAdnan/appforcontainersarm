@@ -1,4 +1,5 @@
-﻿componentType: state.azure.blobstorage
+﻿properties:
+componentType: state.azure.blobstorage
 version: v1
 ignoreErrors: false
 metadata:
